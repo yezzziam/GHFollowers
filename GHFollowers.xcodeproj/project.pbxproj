@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		91075A3923EC75CD00F64376 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91075A3823EC75CD00F64376 /* GFTextField.swift */; };
+		91075A3B23EC804E00F64376 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91075A3A23EC804E00F64376 /* FollowerListVC.swift */; };
 		91565EC423EAD84C008A3962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91565EC323EAD84C008A3962 /* AppDelegate.swift */; };
 		91565EC623EAD84C008A3962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91565EC523EAD84C008A3962 /* SceneDelegate.swift */; };
 		91565ECD23EAD84F008A3962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91565ECC23EAD84F008A3962 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		91075A3823EC75CD00F64376 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		91075A3A23EC804E00F64376 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		91565EC023EAD84C008A3962 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91565EC323EAD84C008A3962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91565EC523EAD84C008A3962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				91565EC323EAD84C008A3962 /* AppDelegate.swift */,
 				91565EC523EAD84C008A3962 /* SceneDelegate.swift */,
 				91565ED723EAE7B2008A3962 /* SearchVC.swift */,
+				91075A3A23EC804E00F64376 /* FollowerListVC.swift */,
 				91565ED923EAE7DF008A3962 /* FavoritesListVC.swift */,
 				91565EDB23EB064B008A3962 /* GFButton.swift */,
 				91075A3823EC75CD00F64376 /* GFTextField.swift */,
@@ -147,6 +150,7 @@
 				91565EDA23EAE7DF008A3962 /* FavoritesListVC.swift in Sources */,
 				91565EDC23EB064B008A3962 /* GFButton.swift in Sources */,
 				91565ED823EAE7B2008A3962 /* SearchVC.swift in Sources */,
+				91075A3B23EC804E00F64376 /* FollowerListVC.swift in Sources */,
 				91565EC423EAD84C008A3962 /* AppDelegate.swift in Sources */,
 				91565EC623EAD84C008A3962 /* SceneDelegate.swift in Sources */,
 			);
