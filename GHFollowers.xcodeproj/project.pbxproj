@@ -70,22 +70,54 @@
 		91565EC223EAD84C008A3962 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				91565EC323EAD84C008A3962 /* AppDelegate.swift */,
-				91565EC523EAD84C008A3962 /* SceneDelegate.swift */,
-				91565ED723EAE7B2008A3962 /* SearchVC.swift */,
-				91C19AE023ED898E00A16FC9 /* GFTitleLabel.swift */,
-				91C19AE423ED8C7500A16FC9 /* GFAlertVC.swift */,
-				91C19AE223ED8B4900A16FC9 /* GFBodyLabel.swift */,
-				91075A3A23EC804E00F64376 /* FollowerListVC.swift */,
-				91565ED923EAE7DF008A3962 /* FavoritesListVC.swift */,
-				91565EDB23EB064B008A3962 /* GFButton.swift */,
-				91075A3823EC75CD00F64376 /* GFTextField.swift */,
-				91C19AE623ED95DE00A16FC9 /* UIViewController+Ext.swift */,
-				91565ECC23EAD84F008A3962 /* Assets.xcassets */,
-				91565ECE23EAD84F008A3962 /* LaunchScreen.storyboard */,
+				91C19AE923EDB8C400A16FC9 /* Custom Views */,
+				91C19AE823EDB87700A16FC9 /* Screens */,
+				91C19AEA23EDB90F00A16FC9 /* Extensions */,
+				91C19AEB23EDB96F00A16FC9 /* Support */,
 				91565ED123EAD84F008A3962 /* Info.plist */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		91C19AE823EDB87700A16FC9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				91565ED723EAE7B2008A3962 /* SearchVC.swift */,
+				91075A3A23EC804E00F64376 /* FollowerListVC.swift */,
+				91565ED923EAE7DF008A3962 /* FavoritesListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		91C19AE923EDB8C400A16FC9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				91C19AE423ED8C7500A16FC9 /* GFAlertVC.swift */,
+				91C19AE023ED898E00A16FC9 /* GFTitleLabel.swift */,
+				91C19AE223ED8B4900A16FC9 /* GFBodyLabel.swift */,
+				91565EDB23EB064B008A3962 /* GFButton.swift */,
+				91075A3823EC75CD00F64376 /* GFTextField.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		91C19AEA23EDB90F00A16FC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91C19AE623ED95DE00A16FC9 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91C19AEB23EDB96F00A16FC9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				91565EC323EAD84C008A3962 /* AppDelegate.swift */,
+				91565EC523EAD84C008A3962 /* SceneDelegate.swift */,
+				91565ECC23EAD84F008A3962 /* Assets.xcassets */,
+				91565ECE23EAD84F008A3962 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
