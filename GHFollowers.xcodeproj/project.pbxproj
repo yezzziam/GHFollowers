@@ -103,13 +103,13 @@
 		91565EC223EAD84C008A3962 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				91424AD923F1ABCD002DAD86 /* Utilities */,
 				91424AD623F19617002DAD86 /* Managers */,
 				91424AD123F18F29002DAD86 /* Model */,
 				91C19AE923EDB8C400A16FC9 /* Custom Views */,
 				91C19AE823EDB87700A16FC9 /* Screens */,
 				91C19AEA23EDB90F00A16FC9 /* Extensions */,
 				91C19AEB23EDB96F00A16FC9 /* Support */,
+				91424AD923F1ABCD002DAD86 /* Utilities */,
 				91565ED123EAD84F008A3962 /* Info.plist */,
 			);
 			path = GHFollowers;
