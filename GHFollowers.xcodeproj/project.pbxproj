@@ -118,7 +118,6 @@
 		91565EC223EAD84C008A3962 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				91160EDD23F3455800998B7D /* Cells */,
 				91424AD623F19617002DAD86 /* Managers */,
 				91424AD123F18F29002DAD86 /* Model */,
 				91C19AE923EDB8C400A16FC9 /* Custom Views */,
@@ -144,6 +143,7 @@
 		91C19AE923EDB8C400A16FC9 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				91160EDD23F3455800998B7D /* Cells */,
 				91C19AE423ED8C7500A16FC9 /* GFAlertVC.swift */,
 				91C19AE023ED898E00A16FC9 /* GFTitleLabel.swift */,
 				91C19AE223ED8B4900A16FC9 /* GFBodyLabel.swift */,
