@@ -34,7 +34,7 @@ class GFItemInfoView: UIView {
         
         symbolImageView.translatesAutoresizingMaskIntoConstraints = false
         symbolImageView.contentMode = .scaleAspectFill
-        symbolImageView.tintColor = .label
+        symbolImageView.tintColor   = .label
         
         NSLayoutConstraint.activate([
             symbolImageView.topAnchor.constraint(equalTo: self.topAnchor),
@@ -54,7 +54,7 @@ class GFItemInfoView: UIView {
         ])
     }
     
-    func set(itemInfoType: ItemInfoType, with count: Int) {
+    func set(itemInfoType: ItemInfoType, withCount count: Int) {
         switch itemInfoType {
         case .repos:
             symbolImageView.image = UIImage(systemName: SFSymbols.repos)
@@ -66,9 +66,10 @@ class GFItemInfoView: UIView {
             symbolImageView.image = UIImage(systemName: SFSymbols.followers)
             titleLabel.text = "Followers"
         case .following:
-            symbolImageView.image = UIImage(systemName: SFSymbols.follwing)
+            symbolImageView.image = UIImage(systemName: SFSymbols.following)
             titleLabel.text = "Following"
         }
+        
         countLabel.text = String(count)
     }
 }
