@@ -38,6 +38,7 @@
 		91C19AE323ED8B4900A16FC9 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C19AE223ED8B4900A16FC9 /* GFBodyLabel.swift */; };
 		91C19AE523ED8C7500A16FC9 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C19AE423ED8C7500A16FC9 /* GFAlertVC.swift */; };
 		91C19AE723ED95DE00A16FC9 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C19AE623ED95DE00A16FC9 /* UIViewController+Ext.swift */; };
+		91DED3C2241BCFC10050076C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DED3C1241BCFC10050076C /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		91C19AE223ED8B4900A16FC9 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		91C19AE423ED8C7500A16FC9 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		91C19AE623ED95DE00A16FC9 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		91DED3C1241BCFC10050076C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				91424AD723F19630002DAD86 /* NetworkManager.swift */,
+				91DED3C1241BCFC10050076C /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				91424AD323F18F40002DAD86 /* Follower.swift in Sources */,
 				91C19AE123ED898E00A16FC9 /* GFTitleLabel.swift in Sources */,
 				91BB02462419595F00D5D454 /* Date+Ext.swift in Sources */,
+				91DED3C2241BCFC10050076C /* PersistenceManager.swift in Sources */,
 				913339F624057F6A00E777C0 /* GFSecondaryTitleLabel.swift in Sources */,
 				911C4C4123F5C22200E69E30 /* GFEmptyStateView.swift in Sources */,
 				91424AD823F19630002DAD86 /* NetworkManager.swift in Sources */,
