@@ -9,7 +9,6 @@
 import UIKit
 
 extension UIView {
-    
     func pinToEdges(of superview: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([

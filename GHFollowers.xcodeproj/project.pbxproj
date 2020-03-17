@@ -231,9 +231,9 @@
 		9194897024193B010009C5ED /* ItemInfoVCs */ = {
 			isa = PBXGroup;
 			children = (
+				91BB02432419433200D5D454 /* GFItemInfoVC.swift */,
 				9194896C241938FD0009C5ED /* GFRepoItemVC.swift */,
 				9194896E24193AB40009C5ED /* GFFollowerItemVC.swift */,
-				91BB02432419433200D5D454 /* GFItemInfoVC.swift */,
 			);
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
@@ -253,12 +253,12 @@
 			isa = PBXGroup;
 			children = (
 				914F9811241E677800CC938D /* TabBarControllers */,
-				911C4C3F23F5C1EB00E69E30 /* ViewControllers */,
 				911C4C3E23F5C1D900E69E30 /* Labels */,
-				911C4C3D23F5C1BA00E69E30 /* TextFields */,
-				911C4C3C23F5C1AE00E69E30 /* Views */,
+				911C4C3F23F5C1EB00E69E30 /* ViewControllers */,
 				911C4C3B23F5C1A000E69E30 /* ImageViews */,
+				911C4C3D23F5C1BA00E69E30 /* TextFields */,
 				911C4C3A23F5C19200E69E30 /* Buttons */,
+				911C4C3C23F5C1AE00E69E30 /* Views */,
 				91160EDD23F3455800998B7D /* Cells */,
 			);
 			path = "Custom Views";

@@ -13,7 +13,6 @@ protocol GFFollowerItemVCDelegate: class {
 }
 
 class GFFollowerItemVC: GFItemInfoVC {
-    
     weak var delegate: GFFollowerItemVCDelegate!
     
     init(user: User, delegate: GFFollowerItemVCDelegate) {

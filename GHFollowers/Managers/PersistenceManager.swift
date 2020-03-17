@@ -13,12 +13,9 @@ enum PersistenceActionType {
 }
 
 enum PersistenceManager {
-    
     static private let defaults = UserDefaults.standard
     
-    enum Keys {
-        static let favorites = "favorites"
-    }
+    enum Keys { static let favorites = "favorites" }
     
     static func updatedWith(favorite: Follower, actionType: PersistenceActionType, completed: @escaping (GFError?) -> Void) {
         retrieveFavorites { result in
@@ -63,7 +60,6 @@ enum PersistenceManager {
     }
     
     static func save(favorites: [Follower]) -> GFError? {
-        
         do {
             let enconder = JSONEncoder()
             let encodedFavorites = try enconder.encode(favorites)

@@ -90,7 +90,7 @@ class NetworkManager {
         task.resume()
     }
     
-    func donwloadImage(from urlString: String, completed: @escaping (UIImage?) -> Void) {
+    func downloadImage(from urlString: String, completed: @escaping (UIImage?) -> Void) {
         let cacheKey = NSString(string: urlString)
         
         if let image = cache.object(forKey: cacheKey) {

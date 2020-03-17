@@ -13,7 +13,6 @@ protocol UserInfoVCDelegate: class {
 }
 
 class UserInfoVC: GFDataLoadingVC {
-    
     let scrollView = UIScrollView()
     let contentView = UIView()
     

@@ -9,7 +9,6 @@
 import UIKit
 
 class GFEmptyStateView: UIView {
-    
     let messageLabel = GFTitleLabel(textAlignment: .center, fontSize: 28)
     let logoImageView = UIImageView()
 
@@ -39,10 +38,8 @@ class GFEmptyStateView: UIView {
         
         let labelCenterYConstant: CGFloat = DeviceTypes.isiPhoneSE || DeviceTypes.isiPhone8Zoomed ? -80 : -150
         
-        let messageLabelCenterYConstraint = centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: labelCenterYConstant)
-        messageLabelCenterYConstraint.isActive = true
-        
         NSLayoutConstraint.activate([
+            messageLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: labelCenterYConstant),
             messageLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 40),
             messageLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -40),
             messageLabel.heightAnchor.constraint(equalToConstant: 200),
@@ -55,13 +52,11 @@ class GFEmptyStateView: UIView {
         
         let logoBottomConstant: CGFloat = DeviceTypes.isiPhoneSE || DeviceTypes.isiPhone8Zoomed ? 80 : 40
         
-        let logoImageViewBottonConstraint = logoImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: logoBottomConstant)
-        logoImageViewBottonConstraint.isActive = true
-        
         NSLayoutConstraint.activate([
             logoImageView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.3),
             logoImageView.heightAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.3),
-            logoImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 170)
+            logoImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 170),
+            logoImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: logoBottomConstant)
         ])
     }
 }

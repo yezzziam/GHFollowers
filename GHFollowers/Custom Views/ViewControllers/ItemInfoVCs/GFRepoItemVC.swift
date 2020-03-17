@@ -13,7 +13,6 @@ protocol GFRepoItemVCDelegate: class {
 }
 
 class GFRepoItemVC: GFItemInfoVC {
-    
     weak var delegate: GFRepoItemVCDelegate!
     
     init(user: User, delegate: GFRepoItemVCDelegate) {
